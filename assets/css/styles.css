@@ -1,0 +1,101 @@
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    background-color: var(--body-bg-color);
+}
+
+main {
+    margin: 0 auto;
+}
+
+.profile {
+    width: 340px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.user-image {
+    box-shadow: var(--purple) 0px 1px 4px, var(--purple) 0px 0px 0px 3px;
+    background-image: url(../images/Vinicius.jpg);
+    background-position-y: -40px;
+    border: 6px #fff solid;
+    background-size: cover;
+    border-radius: 50%;
+    height: 186px;
+    width: 186px;
+}
+
+.link {
+    padding: 12px;
+    font-weight: 300;
+    text-align: center;
+    color: var(--purple);
+}
+
+.social-links {
+    padding: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    flex-direction: column;
+}
+
+.social-links li {
+    width: 100%;
+    margin: 8px 0;
+    display: flex;
+}
+
+.social-links a {
+    width: 100%;
+    padding: 12px;
+    text-align: center;
+    color: var(--purple);
+    text-decoration: none;
+    border: 2px var(--purple) solid;
+}
+
+.social-links a:hover {
+    color: #913be7;
+    border-color: #913be7;
+}
+
+.social-networks {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.social-networks li {
+    padding: 12px;
+}
+
+.social-networks a {
+    padding: 4px;
+    display: flex;
+    border-radius: 8px;
+    border: 2px transparent solid;
+}
+
+.social-networks a:hover {
+    
+    border: 2px var(--purple) solid;
+}
+
+
+
